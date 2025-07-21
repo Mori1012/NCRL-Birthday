@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>北圓圈生日快樂！</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #00ffe5;
+      font-family: 'Orbitron', sans-serif;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    .logo {
+      margin-top: 50px;
+      max-width: 250px;
+      filter: drop-shadow(0 0 15px #00ffe5);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin: 30px 20px 10px;
+      animation: flicker 1.5s infinite alternate;
+    }
+
+    p {
+      font-size: 1.4em;
+      margin: 10px 20px 50px;
+      color: #ccc;
+      animation: fadeIn 3s ease-in;
+    }
+
+    footer {
+      margin-top: 80px;
+      color: #555;
+      font-size: 0.9em;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.6; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <img class="logo" src="logo.png" alt="TPOF Logo">
+
+  <h1>北圓圈，生日快樂！</h1>
+  <p>願你每天都像打出 <strong>四殺</strong> 一樣精彩！<br>來自我們 <strong>TPOF</strong> 戰隊的最強祝福 🎮</p>
+
+  <footer>© 2025 TPOF 團隊</footer>
+
+</body>
+</html>
